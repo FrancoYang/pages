@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>翻页按钮</title>
+    <style>
+        a{
+            display: inline-block;
+            width: 17px;
+            height: 20px;
+            text-align: center;
+            text-decoration: none;
+            font:12px/20px "宋体";
+            border: 1px solid #e0e1e2;
+            color: #2052a3;
+
+
+        }
+        .pageBtn1{
+            width: 40px;
+        }
+
+        .pageBtn2{
+            width: 64px;
+        }
+
+        a:hover,.active{
+            background-color: #1f3a87;
+            color: #fff;
+        }
+
+        button{
+            color: #2052a3;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="pageBox">
+        <a href="#" class="pageBtn1">首页</a>
+        <a href="#" class="pageBtn2">上一页</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#" class="active">3</a>
+        <a href="#">4</a>
+        <a href="#" class="pageBtn2">下一页</a>
+        <a href="#" class="pageBtn1">尾页</a>
+        <select name="" id="">
+            <option value="">01页</option>
+            <option value="">02页</option>
+            <option value="">03页</option>
+            <option value="">04页</option>
+        </select>
+        <button>跳转</button>
+    </div>
+</body>
+</html>
